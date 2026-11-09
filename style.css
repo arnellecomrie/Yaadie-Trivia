@@ -1,0 +1,45 @@
+
+
+
+body {
+    font-family: Grime;
+    background-color: #000;
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+h1 {
+    color : #297045;
+    text-align: center;
+
+}
+
+@font-face {
+    font-family: Grime;
+    src: url(GrimeSlime-Regular.ttf)
+}
+
+
+button{
+    transform: rotate(5deg);
+     background: #78BC61;
+    transition-property: background;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+  }
+  
+  button:hover{
+    background: #78BC61;
+  }
+
+.question {
+    background-color: #EFCA08;
+    padding: 15px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+.answer {
+    padding: 15px;
+    background-color: #297045;
+}
